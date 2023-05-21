@@ -240,11 +240,11 @@
     margin-top: 4px;
 
   }
-    @media screen and (max-width:768px) {
+  @media screen and (max-width:768px) {
     
     .card{
       height: 1200px;
-      width: 450px;
+      width: 500px;
 
     }
     h1{
@@ -259,7 +259,7 @@
     }
     .card-wrapper{
       height: 900px;
-      width: fit-content;
+      width: 400px;
     }
    
    .container{
@@ -284,7 +284,13 @@
     padding-bottom: 30px;
    }
    .card-top{
-    width: 390px;
+    width: 400px;
+   }
+   .coim{
+    margin-left: 5px;
+   }
+   .igd-py{
+    margin-left: 40px;
    }
   }
   

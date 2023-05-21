@@ -199,6 +199,7 @@
      animation-name: motionProduct;
      animation-duration: 3s;
      animation: motionProduct 3s infinite;
+     box-shadow: 5px 5px 2px #a27c6a;
     
   }
   .contact_me{

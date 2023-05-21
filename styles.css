@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+  }
+  :root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+    --project-blue:#6B9AAB;
+    --me:#e1cdc4;
+    --bg-project:#e9f5f9
+  }
+  h1{
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    color: #a27c6a;
+    
+    
+
+  }
+  h2{
+    font-family: 'Satisfy', cursive;
+    color: #a27c6a;
+    
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+   
+ 
+  }
+  
+  p {
+    font-family: 'Satisfy', cursive;
+    font-size: 4;
+    line-height: 1.4;
+    color:#50769a ;
+    
+    
+  }
+  
+  img {
+    width: 100%;
+  }
+  .container{
+    width: 100%;
+    height: 150vh;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .card-wrapper{
+    padding-top: 1px;
+    width: 200vh;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    overflow: hidden;
+    
+  }
+  .card{
+    width: 60rem;
+    height: 90rem;
+    background: #fff;
+    border-radius:3rem;
+  }
+  .card-top{
+    width: 100%;
+    height: 45%;
+    background:#e1cdc4;
+    border: 0.6rem solid var(--white);
+    border-radius: 3rem;
+    padding: 3rem;
+    position: relative;
+    
+  }
+  .logo{
+    width: 10rem;
+    margin-bottom: 2rem
+  }
+  .brand-text h3{
+    font-weight: 700;
+    letter-spacing: 1rem;
+    margin-bottom: 1rem;
+  }
+  .brand-text p{
+    margin-top: -2vh;
+    color: #222831;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  .images {
+    
+   size: 40px;
+    
+
+  }
+  
+  
+  
+  .images {
+    
+    margin-left: 350px;
+    
+    
+     width: 25rem;
+     border-radius: 1rem;
+   
+     top: -5rem;
+     left: -45rem;
+     transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+     margin-bottom: 500px;
+     
+ 
+   }
+   .img-prof{
+    box-shadow: 10px 10px 5px lightblue;
+   }
+  
+   
+   
+   @keyframes motionProduct {
+     0%,
+     100% {
+       transform: translateY(0);
+     }
+     50% {
+       transform: translateY(1rem);
+     }
+   }
+  .card-bottom{
+    width: 100%;
+    height: 55%;
+    padding: 2rem 3rem;
+
+  }
+  .card-bottom h2{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+  }
+  .choice,igd-details{
+   display: flex;
+    height: fit-content;
+    width: 50px;
+    
+    
+    
+  }
+  .about_me{
+    padding-right: 5vh;
+    
+  }
+  .choice{
+    margin-top: 10px;
+    margin-top: 20px;
+    
+    
+    
+  }
+  .choice h3{
+    font-size: 1rem;
+    font-weight: 700;
+    padding:0.5rem 1rem ;
+    border:1px solid var(--me);
+    border-radius:0.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: var(--trans05);
+
+  }
+  .jsim{
+    width: 60px;
+    padding-left: 9%;
+    margin-top: 4px;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+  }
+  .htim{
+    width: 45px;
+    height: 45px;
+    margin-right: 4px;
+    
+    margin-top: 4px;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+  }
+  .jaim{
+    width: 49px;
+    
+    margin-top: 4px;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+     
+  }
+  .pyim{
+    width: 49px;
+    margin-top: 4px;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+
+
+  }
+  .about_me{
+    display: flex;
+    
+    border-radius: 3rem;
+    border-color: #a27c6a;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    background: #e1cdc4;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+   
+    
+  }
+  .projects{
+    display: flex;
+    
+    border-radius: 3rem;
+    border-color: #a27c6a;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    background: #e1cdc4;
+    padding-top: 0.5rem;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+
+  }
+  .contact_me{
+    display: flex;
+    
+    border-radius: 3rem;
+    border-color: #a27c6a;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    background: #e1cdc4;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+  }
+  .details{
+    padding-top: 10px;
+
+  }
+  .details h2{
+    padding-bottom: -15px;
+  }
+  .details p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 650;
+    color: #1c2b2d;
+    font-size: larger;
+  }
+  .daim{
+    width: 49px;
+    
+    margin-top: 4px;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+  }
+  .myim{
+    width: 40px;
+    margin-right: 4px;
+    margin-top: 4px;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+  }
+  .btn{
+    transition: 0.5s;
+    
+  }
+  .btn:hover{
+    background: #a27c6a;
+  
+    color:white;
+  }
+  
+  

@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+  }
+  :root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+    --project-blue:#6B9AAB;
+    --me:#e1cdc4;
+    --bg-project:#e9f5f9
+  }
+  h1{
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+    color: #93af8a;
+    
+    
+
+  }
+  h2{
+    font-family: 'Satisfy', cursive;
+    color: #93af8a;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  html {
+    font-size: 10px;
+  }
+  body {
+    font-family: 'Montserrat', sans-serif;
+ 
+  }
+  
+  p {
+    font-family: 'Satisfy', cursive;
+    font-size: 4;
+    line-height: 1.4;
+    color:#50769a ;
+    
+    
+  }
+  
+  img {
+    width: 100%;
+  }
+ 
+  .container{
+    width: 100%;
+    height: 150vh;
+    background: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-wrapper{
+    padding-top: 1px;
+    width: 200vh;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    overflow: hidden;
+    
+  }
+  
+  .card-top{
+    width: 60rem;
+    height: 90rem;
+    background:#e4fcdc;
+    border: 0.6rem solid var(--white);
+    border-radius: 3rem;
+    padding: 3rem;
+    position: relative;
+    
+  }
+  .logo{
+    width: 10rem;
+    margin-bottom: 2rem
+  }
+  .brand-text h3{
+    font-weight: 700;
+    letter-spacing: 1rem;
+    margin-bottom: 1rem;
+  }
+  .brand-text p{
+    margin-top: -2vh;
+    color: #222831;
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  .images {
+    
+   margin-left: 350px;
+   
+   
+    width: 25rem;
+    border-radius: 1rem;
+  
+    top: -5rem;
+    left: -45rem;
+    transition: var(--trans1);
+    animation-name: motionProduct;
+    animation-duration: 3s;
+    animation: motionProduct 3s infinite;
+    
+
+  }
+ 
+  
+  
+  @keyframes motionProduct {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(1rem);
+    }
+  }
+  
+  .image{
+    margin-bottom: 60px;
+    height: 60px;
+    width:60px;
+    display: flex;
+    
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+
+  }
+  
+  .choice,igd-details{
+   display: flex;
+    height: fit-content;
+    width: 50px;
+    
+    
+    
+  }
+  .about_me{
+    padding-right: 5vh;
+    
+  }
+  .choice{
+    margin-top: 10px;
+    margin-top: 20px;
+    
+    
+    
+  }
+  .choice h3{
+    font-size: 1rem;
+    font-weight: 700;
+    padding:0.5rem 1rem ;
+    border:1px solid var(--me);
+    border-radius:0.5rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: var(--trans05);
+
+  }
+
+  .about_me{
+    display: flex;
+    
+    border-radius: 3rem;
+    border-color: #50769a;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    background: #a5d19e;
+    
+  }
+  .btn:hover{
+    background: #93af8a;
+    
+    color:  #e4fcdc;
+    
+  }
+  .btn{
+    transition: 0.5s;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+    
+  }
+  .contact_me{
+    display: flex;
+    
+    border-radius: 3rem;
+    border-color: #93af8a;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+    background: #eee;
+  }
+  .coim{
+    width: 65px;
+    height: 65px;
+    margin-right: 4px;
+    margin-top: 4px;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     border-radius: 20px;
+     animation: motionProduct 3s infinite;
+
+  }
+  .fim{
+    width: 65px;
+    height: 65px;
+    margin-right: 4px;
+    transition: var(--trans1);
+     animation-name: motionProduct;
+     animation-duration: 3s;
+     animation: motionProduct 3s infinite;
+     border-radius: 20px;
+    margin-top: 4px;
+
+  }
+  
+  

@@ -320,6 +320,7 @@
   }
   .btn{
     transition: 0.5s;
+    box-shadow: 5px 5px 2px #a27c6a;
     
   }
   .btn:hover{

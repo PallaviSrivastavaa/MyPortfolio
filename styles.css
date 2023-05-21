@@ -327,5 +327,52 @@
   
     color:white;
   }
+  @media screen and (max-width:768px) {
+    
+    .card{
+      height: 1200px;
+      width: 450px;
+
+    }
+    h1{
+      height: 0.5px;
+      margin-bottom: 20px;
+      float: none;
+    }
+    .choice{
+      width: 200px;
+      margin-bottom: 2px;
+      
+    }
+    .card-wrapper{
+      height: 900px;
+      width: fit-content;
+    }
+   
+   .container{
+    height: fit-content;
+    
+   }
+   p{
+    font-size: 10px;
+    margin-right: 50px;
+    
+
+   }
+   .img-prof2{
+    width: 200px;
+    
+    margin-left:150px ;
+    margin-top: 10px;
+    
+   }
+   h1{
+    font-size: 30px;
+    padding-bottom: 30px;
+   }
+   .card-top{
+    width: 390px;
+   }
+  }
   
   
